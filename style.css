@@ -3,14 +3,14 @@
    "how to change link color." */
 
 body {
-  font-size: 18px;
+  font-size: 17px;
   font-family: sans-serif;
   background-image: url("luna.gif"); /* The image used */
   margin-top: 20px;
 margin-right: auto;
 margin-bottom: 0px;
 margin-left: auto;
-width: 400px;
+width: 360px;
  background-attachment: fixed;
  background-size: cover
 }
