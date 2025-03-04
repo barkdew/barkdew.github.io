@@ -3,106 +3,24 @@
    "how to change link color." */
 
 body {
-  font-size: 26px;
-  background-color: black;
-  color: white;
-  font-family: 'Nintendo-DS-BIOS', sans-serif;
-  text-align: center;
-  background-image: url("giphy-2926161217.gif"); /* The image used */
+  font-size: 18px;
+  font-family: sans-serif;
+  background-image: url("luna.gif"); /* The image used */
   margin-top: 20px;
 margin-right: auto;
 margin-bottom: 0px;
 margin-left: auto;
 width: 400px;
-  background-position: center; /* Center the image */
-  background-repeat: repeat; /* Do not repeat the image */
-  background-size: 1000px; /* Resize the background image to cover the entire container */
+ background-attachment: fixed;
+ background-size: cover
 }
-.winamp-container{
-	text-align: left;
-}
-
-p {
-  line-height: 1;	
-}
-.tw {
-	color: #17171C; 
-	background-color: #17171C;
-}
-.tw:hover {
-	background-color: #C9D1F8; 
-}
-.pageselect {
-	color: #17171C; 
-	background-color: #C9D1F8;
-}
-img.hlep {
-	vertical-align:middle;
-}
-
 .why {
   line-height: 0.8;	
 }
 
-p.blogtext {
-	text-align: left;
-	line-height: 1.6;	
-}
-
-.titlebox {
-  text-align: left;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 10px;
-  background-color: #000000;
-  color: white;
-}
-
-.box {
-  border: 8px solid #C0C0C0;
-}
-
 .box2 {
-  border: 2px solid #9B9A99;
-  background-color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  color: black;
-  text-align: left;
-}
-
-.box3 {
-	border: 2px solid #9B9A99;
-  background-color: white;
-  padding: 0px;
-  color: black;
-  text-align: left;
-}
-
-.out {
-  border: 1px solid #FFFFFF;
-}
-
-.out2 {
-  border: 1px solid #DFDFDF;
-}
-
-@font-face {
-    font-family: 'Nintendo-DS-BIOS';
-    src: url('Nintendo-DS-BIOS.eot'); /* IE9 Compat Modes */
-    src: url('Nintendo-DS-BIOS.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('Nintendo-DS-BIOS.woff') format('woff'), /* Modern Browsers */
-         url('Nintendo-DS-BIOS.ttf')  format('truetype'), /* Safari, Android, iOS */
-         url('Nintendo-DS-BIOS.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 50px;
-}
-
-marquee {
-	font-size: 75px;
+  border: 8px solid #F0EAF4;
+  background-color: #F0EAF4;
+  color: #EA72B6;
+  text-align: center;
 }
